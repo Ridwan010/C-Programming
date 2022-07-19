@@ -5,7 +5,7 @@ int main()
 {
 	int a;
 	
-	a = ' ';
+	a = 'a';
 	printf(" A starting character is %c", a);
 	printf("The loop stops when k is entered");
 	while (a != 'k')
