@@ -6,8 +6,8 @@ int main()
 	int a;
 	
 	a = 'a';
-	printf(" A starting character is %c", a);
-	printf("The loop stops when k is entered");
+	printf(" A starting character is %c\n", a);
+	printf("The loop stops when k is entered\n");
 	while (a != 'k')
 	{
 		a = getc(stdin);
