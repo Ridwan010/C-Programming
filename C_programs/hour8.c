@@ -23,5 +23,11 @@ int main()
 	printf("Given i = %d and j = %d\n", i, j );
 	printf("The value of i << j = %d i.e hex = %X\n", i << j, i << j);
 	printf("The value of i >> j = %d i.e hex = %X\n", i >> j, i >> j);
+
+	/* The code below prints different values of using bitwise operator in hex format */
+
+	printf("The result of 0xFFFF^0x8888 is %X\n", 0xFFFF^0x8888);
+	printf("The result of 0xABCD & 0X4567 is %X\n", 0xABCD & 0x4567);
+	printf("The result of 0xDCBA | 0x1234 is %X\n", 0xDCBA | 0x1234);
 	return(0);
 }
